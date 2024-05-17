@@ -9,4 +9,5 @@ add_executable(Advanced main.cpp
         "Stacks and Queues/03.Demos/BrowserHistory.cpp"
         "Stacks and Queues/01.Lab/02.stack_sum.cpp"
         "Stacks and Queues/01.Lab/03.simple_calculator.cpp"
-        "Stacks and Queues/01.Lab/04.matching_brackets.cpp")
+        "Stacks and Queues/01.Lab/04.matching_brackets.cpp"
+        "Stacks and Queues/01.Lab/05.print_even_numbers.cpp")
