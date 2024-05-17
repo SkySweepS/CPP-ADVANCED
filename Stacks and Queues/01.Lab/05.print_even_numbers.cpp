@@ -8,7 +8,7 @@
 
 using namespace std;
 
-int main() {
+int task5() {
 
     string arr;
     getline(cin, arr);
