@@ -8,7 +8,7 @@
 
 using namespace std;
 
-int task8() {
+int task9() {
     int N, S, X;
     cin >> N >> S >> X;
     cin.ignore();
@@ -16,7 +16,7 @@ int task8() {
     getline(cin, nums);
 
     istringstream istr(nums);
-    stack<int> n;
+    queue<int> n;
     int num;
     while(istr >> num){
         n.push(num);
@@ -32,13 +32,13 @@ int task8() {
     }
     while(!n.empty()){
 
-        if(n.top() == X){
+        if(n.front() == X){
             cout << "true" << endl;
             return 0;
         }
         else{
-            if(n.top() < int_min){
-                int_min = n.top();
+            if(n.front() < int_min){
+                int_min = n.front();
             }
         }
         n.pop();

@@ -13,4 +13,7 @@ add_executable(Advanced main.cpp
         "Stacks and Queues/01.Lab/05.print_even_numbers.cpp"
         "Stacks and Queues/01.Lab/06.supermarket.cpp"
         "Stacks and Queues/01.Lab/07.hot_potato.cpp"
-        "Stacks and Queues/02.Exercises/01.Basic_stack_operations.cpp")
+        "Stacks and Queues/02.Exercises/01.Basic_stack_operations.cpp"
+        "Stacks and Queues/02.Exercises/02.BasicQueueOperations.cpp"
+        "Stacks and Queues/02.Exercises/03.MaximumAndMinimumElement.cpp"
+        "Stacks and Queues/02.Exercises/04.FastFood.cpp")
