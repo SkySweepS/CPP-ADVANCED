@@ -7,28 +7,29 @@
 
 using namespace std;
 
-int main() {
+int task4() {
     string line;
     getline(cin, line);
 
-    istringstream istr(line);
-    string check;
 
-    stack<int> start;
-    stack<int> end;
 
-    for (int i = 0; i < line.size(); i++){
-        check = line[i];
-        if (check == "("){
+
+    stack<size_t> start;
+    stack<size_t> end;
+
+    for (size_t i = 0; i < line.size(); i++){
+
+        if (line[i] == *"("){
             start.push(i);
         }
-        else if(check == ")"){
-            int out = start.top();
+        else if(line[i] == *")"){
+
+            string output = line.substr(start.top(), i - start.top() + 1);
             start.pop();
-            int put = line[out] + line[i];
-            cout << put;
+            cout << output << endl;;
 
         }
+
     }
 
 
