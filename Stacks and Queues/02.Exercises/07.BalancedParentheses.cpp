@@ -15,7 +15,7 @@ bool check_identical(stack<char>&open, char expected){
     return true;
 }
 
-int main() {
+int task14() {
     string text;
     cin >> text;
 
