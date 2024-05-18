@@ -25,7 +25,7 @@ bool check_for_trip(queue<int>petrol, queue<int>distance){
 }
 
 
-int main() {
+int task13() {
     int n;
     cin >> n;
     cin.ignore();

@@ -18,4 +18,5 @@ add_executable(Advanced main.cpp
         "Stacks and Queues/02.Exercises/03.MaximumAndMinimumElement.cpp"
         "Stacks and Queues/02.Exercises/04.FastFood.cpp"
         "Stacks and Queues/02.Exercises/05.FashionBoutique.cpp"
-        "Stacks and Queues/02.Exercises/06.TruckTour.cpp")
+        "Stacks and Queues/02.Exercises/06.TruckTour.cpp"
+        "Stacks and Queues/02.Exercises/07.BalancedParentheses.cpp")
