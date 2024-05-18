@@ -8,7 +8,7 @@
 
 using namespace std;
 
-int main() {
+int task11() {
     int food_quantity;
     cin >> food_quantity;
     cin.ignore();
